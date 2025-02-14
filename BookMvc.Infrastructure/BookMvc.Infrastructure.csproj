@@ -1,19 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>eBook_.Net9_MVC</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <Folder Include="Data\" />
+    <Folder Include="Service\" />
+    <Folder Include="Data\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BookMvc.Core\BookMvc.Core.csproj" />
-    <ProjectReference Include="..\BookMvc.Infrastructure\BookMvc.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

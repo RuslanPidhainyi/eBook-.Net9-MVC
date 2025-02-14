@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBook-.Net9-MVC", "eBook-.Net9-MVC\eBook-.Net9-MVC.csproj", "{020FE488-E937-4B74-8230-5363A28513C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMvc.Core", "BookMvc.Core\BookMvc.Core.csproj", "{90719378-D9D8-45A6-9C4F-A1B9942453A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMvc.Infrastructure", "BookMvc.Infrastructure\BookMvc.Infrastructure.csproj", "{3651ED14-2ABE-4561-8B0D-EDA036C0A700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{020FE488-E937-4B74-8230-5363A28513C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020FE488-E937-4B74-8230-5363A28513C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020FE488-E937-4B74-8230-5363A28513C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90719378-D9D8-45A6-9C4F-A1B9942453A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90719378-D9D8-45A6-9C4F-A1B9942453A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90719378-D9D8-45A6-9C4F-A1B9942453A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90719378-D9D8-45A6-9C4F-A1B9942453A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3651ED14-2ABE-4561-8B0D-EDA036C0A700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3651ED14-2ABE-4561-8B0D-EDA036C0A700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3651ED14-2ABE-4561-8B0D-EDA036C0A700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3651ED14-2ABE-4561-8B0D-EDA036C0A700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
