@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BookMvc.Core\BookMvc.Core.csproj" />
     <ProjectReference Include="..\BookMvc.Infrastructure\BookMvc.Infrastructure.csproj" />
   </ItemGroup>
